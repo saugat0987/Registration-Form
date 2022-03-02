@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+
+	<div id="heading">
+		<h1>Registration Form</h1>
+		
+
+	</div>
+	<br>
+	<form action="/myaction.html" name="myForm" method="GET" onsubmit="return valueForm()">
+		<div id="fm">
+			<div class="formdesign" id="namef">
+				Name: <input type="text" class="naam" name="myName" id="naam">
+				<p class="namee error" style="color:red"></p>
+			</div>
+			<br>
+			<div>
+				Gender: Male<input type="radio" name="myGender" value="m" id="gender"> Female<input type="radio" name="myGender" value="f">
+				<p class="genderr error" style="color:red"></p>
+
+			
+			</div>
+			<br>
+			<div>
+				<div class="block">
+					Phone Number: <br><input type="text" id='ten' name="myNo">
+					<p class="phonee error" style="color:red"></p>
+
+					
+				</div>
+
+				<div class="block" id="block">
+					Address: <br><input id="add" type="text" class="fifty" name="myAddress">
+					<p class="addresss error" style="color:red"></p>
+
+
+					
+				</div>
+			</div>
+			<br>
+			<div>
+				Email: <input type="text" name="myEmail" id="mail">
+				<p class="emaill error" style="color:red"></p>
+
+
+			
+			</div>
+			<br>
+
+		</div>
+
+		<div id="sm">
+			<input type="submit" value="submit now" class="button-33" name="mySubmit">
+		</div>
+
+	</form>
+</body>
+
+</html>
